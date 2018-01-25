@@ -1,0 +1,108 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{enumitem}
+\usepackage{hyperref}
+\setlist[itemize]{noitemsep, topsep=0pt}
+\name{Siddhartha Thota} % Your name
+% \address{56 Yarmouth Road, Toronto} % Your address
+\address{Machine learning engineer, passionate programmer }
+\address{\href{http://www.cs.toronto.edu/~thota}{www.cs.toronto.edu/$\mathtt{\sim}$thota} \\ (416) 666 7834 \\ \href{mailto:thota@cs.toronto.edu}{thota@cs.toronto.edu} } % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Toronto, Canada} \hfill {\em Sept 2017 - Dec 2018} \\ 
+MSc. in Applied Computing, Current GPA 3.85 \\
+Courses: \smallskip \\
+  \begin{tabular}{ l l }
+  Machine Learning and Data Mining & Topics in Cloud, Mobile and Pervasive Computing \\
+  Machine Learning in Computer Vision & Topics in Ubiquitous Comptuing: Assistive Technology
+  \end{tabular} \smallskip \\
+Research projects:
+  \begin{itemize}
+    \item Sidewalk terrain estimation by clustering sensor data to assist wheelchair users
+    \item Scheduling algorithms for applications on heterogenous multi-tier clouds
+  \end{itemize}
+
+
+{\bf National Institute of Technology Karnataka, India} \hfill {\em July 2010 - March 2014} \\ 
+BTech. in Information Technology, GPA 8.47 \\
+Research project:
+  \begin{itemize}
+    \item  Identifying ragas (musical modes in Indian classical music) using HMMs
+  \end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Adobe India, Bangalore}{\em June 2014 - Aug 2017}{}{}
+\textit{Member of Technical Staff - II} 
+\item Designed and built a multi-cloud service management framework on Azure and AWS.
+\item Developed a Spark MLLib-based framework to generalize ML algorithms.
+\item Built data pipelines, configuration services and scheduling interfaces for setting up model training.
+\item Collaborated with data scientists and algorithm engineers, delivered deployments in production. \smallskip \\
+\textit{Member of Technical Staff} 
+\item Optimized customer spends using a customized analytical marketing mix model solver.
+\item Built massive ETL pipelines, provided seasonality and multiple campaign support to customers.
+\item Gained experience of working in a highly agile, self-motivated research project.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Python, JS, Java, Scala, C/C++, R, Octave, MATLAB, HTML/CSS \\
+ML \& Data Science & scikit-learn, Spark-MLLib, Pandas, TensorFlow \\
+Distributed Computing & Spark, Docker, AWS/Azure, Mesos/Marathon etc. \\
+Tools & Vim, git, linux, shell \\
+\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Awards and Publications}
+  \begin{itemize}
+    \item Best poster award, CMU Winter School, Bangalore, 2012: Raga detection in Indian Classical Music using HMMs
+    \item Conference paper: Scale independent raga identification using chromagram patterns and swara based features (IEEE Explore) - IEEE, ICMEW, 2013
+  \end{itemize}
+\end{rSection}
+
+\end{document}
