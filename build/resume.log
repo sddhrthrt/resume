@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.12)  25 JAN 2018 01:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.12)  25 JAN 2018 01:35
 entering extended mode
-**./cv_4.tex
-(cv_4.tex
+**./resume.tex
+(resume.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 (resume.cls
@@ -190,8 +190,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 )
-No file cv_4.aux.
-\openout1 = `cv_4.aux'.
+("C:\Users\sddhr\Documents\Fall 2017\MScAC\resume\build\resume.aux")
+\openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -207,6 +207,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -254,8 +255,11 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
+
+("C:\Users\sddhr\Documents\Fall 2017\MScAC\resume\build\resume.out")
+("C:\Users\sddhr\Documents\Fall 2017\MScAC\resume\build\resume.out")
 \@outlinefile=\write3
-\openout3 = `cv_4.out'.
+\openout3 = `resume.out'.
 
 
 Overfull \hbox (30.0pt too wide) in paragraph at lines 34--34
@@ -285,35 +289,28 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
 
-("C:\Users\sddhr\Documents\Fall 2017\MScAC\resume\build\cv_4.aux")
+("C:\Users\sddhr\Documents\Fall 2017\MScAC\resume\build\resume.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
-
-
-Package rerunfilecheck Warning: File `cv_4.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv_4.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 5090 strings out of 493323
- 76884 string characters out of 3139065
- 167368 words of memory out of 3000000
+ 5095 strings out of 493323
+ 77278 string characters out of 3139065
+ 167472 words of memory out of 3000000
  8622 multiletter control sequences out of 15000+200000
  8143 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,30p,226b,315s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,6n,30p,228b,315s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "C:\Users\sddhr\Documents\Fall 2017\MScAC\resume\build\cv_4.p
-df" (1 page, 78458 bytes).
+Output written on "C:\Users\sddhr\Documents\Fall 2017\MScAC\resume\build\resume
+.pdf" (1 page, 78458 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
